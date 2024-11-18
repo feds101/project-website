@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(97, 96, 96), white, rgb(97, 96, 96));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+
+  .welcome-button {
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    color: black;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+  }
+
+  .welcome-button:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+  }
